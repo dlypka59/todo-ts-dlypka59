@@ -1,4 +1,4 @@
-# ToDo List dlypka59 Debugging Fork — Get Rewarded!
+# ToDo List dlypka59 Debugging Fork from Commit 52a6538 — Get Rewarded!
 
 Create and complete TODO items, with a reward.
 
