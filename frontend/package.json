@@ -19,7 +19,7 @@
     "use-async-effect": "^2.2.7"
   },
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
