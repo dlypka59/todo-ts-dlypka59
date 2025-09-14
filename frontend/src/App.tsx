@@ -367,7 +367,7 @@ const App: React.FC = () => {
         // user didn't give our app the right permissions, and we couldn't use
         // the "todo list" protocol.
 
-        // Check if the error code is related to missing MNC and suppress.
+        // Check if the error code is related to missing MNC (MetaNet Client) and suppress.
         // MNC is being polled until it is launched so no error message is required.
         const errorCode = (e as any).code
         if (errorCode !== 'ERR_NO_METANET_IDENTITY') {
@@ -391,7 +391,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <NoMncModal open={isMncMissing} onClose={() => { setIsMncMissing(false) }} />
+      <NoMncModal open={isMncMissing} onClose={() => { setIsMncMissing(false) } } appName={''} />
       <ToastContainer
         position='top-right'
         autoClose={5000}

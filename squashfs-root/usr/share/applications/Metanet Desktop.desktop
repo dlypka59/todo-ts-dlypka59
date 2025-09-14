@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=
+Comment=An example desktop wallet
+Exec=metanet-desktop
+Icon=metanet-desktop
+Name=Metanet Desktop
+Terminal=false
+Type=Application
